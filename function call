@@ -1,0 +1,17 @@
+#include <stdio.h>
+void sum(){
+   int a=3;
+   int b=5;
+   printf("sum = %d \n",a+b );
+}
+void sub(){
+    int a=4;
+    int b=3;
+    printf("subtract = %d \n" , a-b);
+}
+int main(){
+    printf("we have sum :\n");
+    sum();
+    printf("we have subtract :\n");
+    sub();
+}
