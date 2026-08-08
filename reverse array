@@ -1,1 +1,11 @@
-
+#include <stdio.h>
+void reverse(){
+    int arr[5]={10,20,30,40,50};
+    for(int i=4; i>=0; i--){
+        printf("%d\n",arr[i]);
+    }
+    }
+int main(){
+    printf("we have the reverse loop :\n");
+    reverse();
+}
