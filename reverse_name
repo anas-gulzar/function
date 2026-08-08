@@ -1,0 +1,12 @@
+#include <stdio.h>
+void revName(){
+    char name[4]={'a','n','a','s'};
+    for(char i=3; i>=0; i--){
+        printf("%c" ,name[i]);
+    }
+}
+int main(){
+    printf("reverse name is:");
+    revName();
+}
+    
