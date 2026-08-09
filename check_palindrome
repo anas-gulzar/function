@@ -1,1 +1,31 @@
-
+#include <stdio.h>
+#include <string.h>
+void pal(){
+    int n;
+    int j;
+    printf("enter value: ");
+    scanf("%d",&n);
+    char name[n];
+    char name1[n];
+    
+    printf("\nenter name :");
+    scanf("%s",&name );
+    
+    j=0;
+    for(int i=n-1; i>=0; i--){
+        name1[j]=name[i];
+        j++;
+    }
+    name1[j]='\0';
+    if(strcmp(name,name1)==0){
+        printf("it is palindrome!\n");
+    } else {
+        printf("not palindrome!");
+    }
+}
+int main(){
+    printf("enter a string to check palindrome :\n");
+    pal();
+    pal();
+    
+}
