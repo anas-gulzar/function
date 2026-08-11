@@ -26,6 +26,4 @@ void pal(){
 int main(){
     printf("enter a string to check palindrome :\n");
     pal();
-    pal();
-    
 }
